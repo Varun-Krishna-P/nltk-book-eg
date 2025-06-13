@@ -14,4 +14,11 @@ print(">>> common_contexts allows to examine the contexts that are shared by two
 text2.common_contexts(["monstrous", "very"])
 
 text4.dispersion_plot(["citizens", "democracy", "freedom", "duties", "America"])
+
+print(">>> counting the vocabulary in text4 >>>")
+print(len(text4))
+
+print(">>> getting the unique text in text4 >>>")
+print(len(set(text4)))
+
 plt.show()
